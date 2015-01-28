@@ -11,7 +11,7 @@ import com.amazonia.chinese.splitter.elements.Word;
 public class OneBackwardSplitterTest {
 	@Test
 	public void test() throws IOException {
-		String string = "Ğ¬×ÓºÜÌù½Å£¬µ×Ò²²»ÊÇºÜÓ²£¬´©×ÅºÜÊæ·ş£¬¹Ø¼üÊÇ¼Û¸ñ±ãÒË°¡¡£¿¨ÅÁµÄ¶«Î÷¼Ù»õÌ«¶àÁË£¬ÕæµÄ»¹Õæ²»´í£¬ÔÚÑÇÂíÑ·ÂòµÄ¿¨ÅÁÒÂ·ş£¬Ğ¬×Ó£¬¿ã×Ó¶¼²»´í¡£";
+		String string = "é‹å­å¾ˆè´´è„šï¼Œåº•ä¹Ÿä¸æ˜¯å¾ˆç¡¬ï¼Œç©¿ç€å¾ˆèˆ’æœï¼Œå…³é”®æ˜¯ä»·æ ¼ä¾¿å®œå•Šã€‚å¡å¸•çš„ä¸œè¥¿å‡è´§å¤ªå¤šäº†ï¼ŒçœŸçš„è¿˜çœŸä¸é”™ï¼Œåœ¨äºšé©¬é€Šä¹°çš„å¡å¸•è¡£æœï¼Œé‹å­ï¼Œè£¤å­éƒ½ä¸é”™ã€‚";
 		OneBackwardSplitter obs = new OneBackwardSplitter(Constants.MODEL_FOLDER);
 		Word[] words = obs.parse(string);
 		for (Word w : words) {

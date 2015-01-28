@@ -88,6 +88,10 @@ public class Trainner {
 
 	private void outputWordRate(List<WordAndCounter> dicList)
 			throws IOException {
+		File file = new File(Constants.MODEL_FOLDER);
+		if(!file.exists()){
+			file.mkdir();
+		}
 		PrintWriter pWriter = new PrintWriter(Constants.MODEL_FOLDER
 				+ (new Date()).getTime() + Constants.WORD_MODEL_SUFFIX, "utf-8");
 		for (WordAndCounter wordAndCounter : dicList) {

@@ -15,6 +15,7 @@ public class Sentence {
 		this.rawContent = rawContent;
 		this.rawContent.replaceAll("\\s+", "\\s");
 		this.rawContent.replaceAll("\t+", "\\s");
+		this.rawContent.replaceAll(" ", "\\s");
 		this.rawContent.trim();
 	}
 

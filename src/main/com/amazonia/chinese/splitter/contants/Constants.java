@@ -12,7 +12,7 @@ public class Constants {
 	/**
 	 * splitter between words
 	 */
-	public static final String WORD_SPLITTER = "(\\s|¡¡)";
+	public static final String WORD_SPLITTER = "(\\s| )";
 	/**
 	 * splitter between word and marker
 	 */
@@ -62,41 +62,40 @@ public class Constants {
 		CHINESE_MARKERS.add("<");
 		CHINESE_MARKERS.add(".");
 		CHINESE_MARKERS.add(",");
-
-		CHINESE_MARKERS.add("¡«");
-		CHINESE_MARKERS.add("¡¤");
-		CHINESE_MARKERS.add("£¡");
+		CHINESE_MARKERS.add("ï½ž");
+		CHINESE_MARKERS.add("Â·");
+		CHINESE_MARKERS.add("ï¼");
 		CHINESE_MARKERS.add("@");
 		CHINESE_MARKERS.add("#");
-		CHINESE_MARKERS.add("£¤");
+		CHINESE_MARKERS.add("ï¿¥");
 		CHINESE_MARKERS.add("%");
-		CHINESE_MARKERS.add("¡­¡­");
+		CHINESE_MARKERS.add("â€¦â€¦");
 		CHINESE_MARKERS.add("&");
-		CHINESE_MARKERS.add("¡Á");
-		CHINESE_MARKERS.add("£¨");
-		CHINESE_MARKERS.add("£©");
+		CHINESE_MARKERS.add("Ã—");
+		CHINESE_MARKERS.add("ï¼ˆ");
+		CHINESE_MARKERS.add("ï¼‰");
 		CHINESE_MARKERS.add("-");
-		CHINESE_MARKERS.add("¡ª¡ª");
+		CHINESE_MARKERS.add("â€”â€”");
 		CHINESE_MARKERS.add("+");
 		CHINESE_MARKERS.add("=");
-		CHINESE_MARKERS.add("¡º");
-		CHINESE_MARKERS.add("¡¾");
-		CHINESE_MARKERS.add("¡»");
-		CHINESE_MARKERS.add("¡¿");
-		CHINESE_MARKERS.add("¡¢");
+		CHINESE_MARKERS.add("ã€Ž");
+		CHINESE_MARKERS.add("ã€");
+		CHINESE_MARKERS.add("ã€");
+		CHINESE_MARKERS.add("ã€‘");
+		CHINESE_MARKERS.add("ã€");
 		CHINESE_MARKERS.add("|");
-		CHINESE_MARKERS.add("¡°");
-		CHINESE_MARKERS.add("¡®");
-		CHINESE_MARKERS.add("£º");
-		CHINESE_MARKERS.add("£»");
-		CHINESE_MARKERS.add("£¿");
+		CHINESE_MARKERS.add("â€œ");
+		CHINESE_MARKERS.add("â€˜");
+		CHINESE_MARKERS.add("ï¼š");
+		CHINESE_MARKERS.add("ï¼›");
+		CHINESE_MARKERS.add("ï¼Ÿ");
 		CHINESE_MARKERS.add("/");
-		CHINESE_MARKERS.add("¡·");
-		CHINESE_MARKERS.add("¡¶");
-		CHINESE_MARKERS.add("£¬");
-		CHINESE_MARKERS.add("¡£");
-		CHINESE_MARKERS.add("¡±");
-		CHINESE_MARKERS.add("¡¹");
-		CHINESE_MARKERS.add("¡¸");
+		CHINESE_MARKERS.add("ã€‹");
+		CHINESE_MARKERS.add("ã€Š");
+		CHINESE_MARKERS.add("ï¼Œ");
+		CHINESE_MARKERS.add("ã€‚");
+		CHINESE_MARKERS.add("â€");
+		CHINESE_MARKERS.add("ã€");
+		CHINESE_MARKERS.add("ã€Œ");
 	}
 }
